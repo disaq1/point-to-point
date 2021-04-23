@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@20.3.0/dist/css/suggestions.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Point to point</title>
+</head>
+<body>
+    <main class="main">
+        <h1 class="main__title">
+            FTL: Прямая машина
+        </h1>
+
+        <div class="step-1 step">
+
+            <div class="step__title">
+                <span class="step__title--number">
+                    1
+                </span>
+                <h2 class="step__title--text">
+                    Маршрут
+                </h2>
+            </div>
+
+            <div class="step__input">
+                <h3 class="step__input--text">
+                    Откуда
+                </h3>
+                <input class="step__input--input" type="text">
+            </div>
+            <div class="step__input">
+                <h3 class="step__input--text">
+                    Куда
+                </h3>
+                <input class="step__input--input" type="text">
+            </div>
+        </div>
+
+        <div class="step-2 step">
+            
+            <div class="step__title">
+                <span class="step__title--number">
+                    2
+                </span>
+                <h2 class="step__title--text">
+                    Транспорт
+                </h2>
+            </div>
+            <div class="step__selects">
+
+                <div class="step__select">
+                    <h3 class="step__select--name">
+                        Грузоподьёмность
+                    </h3>
+
+                    <div class="select-box">
+                        <div class="options-container1">
+            
+                            <div class="option1">
+                                <input type="radio" id="1" name="liftingCapacity">
+                                <label class="labelq" for="1">Вариант 1</label>
+                            </div>
+            
+                            <div class="option1">
+                                <input type="radio" id="2" name="liftingCapacity">
+                                <label class="labelq" for="2">Вариант 2</label>
+                            </div>
+            
+                            <div class="option1">
+                                <input type="radio" id="3" name="liftingCapacity">
+                                <label class="labelq" for="3">Вариант 3</label>
+                            </div>
+            
+                            <div class="option1">
+                                <input type="radio" id="4" name="liftingCapacity">
+                                <label class="labelq" for="4">Вариант 4</label>
+                            </div>
+            
+                            <div class="option1">
+                                <input type="radio" id="5" name="liftingCapacity">
+                                <label class="labelq" for="5">Вариант 5</label>
+                            </div>
+                        </div>
+                        <div class="selected1">
+                            Не выбрана
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="step__select">
+                    <h3 class="step__select--name">
+                        Способ погрузки
+                    </h3>
+
+                    <div class="select-box">
+                        <div class="options-container2">
+            
+                            <div class="option2">
+                                <input type="radio" id="6" name="loadingMethod">
+                                <label class="labelq" for="6">Вариант 1</label>
+                            </div>
+            
+                            <div class="option2">
+                                <input type="radio" id="7" name="loadingMethod">
+                                <label class="labelq" for="7">Вариант 2</label>
+                            </div>
+            
+                            <div class="option2">
+                                <input type="radio" id="8" name="loadingMethod">
+                                <label class="labelq" for="8">Вариант 3</label>
+                            </div>
+            
+                            <div class="option2">
+                                <input type="radio" id="9" name="loadingMethod">
+                                <label class="labelq" for="9">Вариант 4</label>
+                            </div>
+            
+                            <div class="option2">
+                                <input type="radio" id="10" name="loadingMethod">
+                                <label class="labelq" for="10">Вариант 5</label>
+                            </div>
+                        </div>
+                        <div class="selected2">
+                            Не выбрана
+                        </div>
+                    </div>
+            
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="step-3 step">
+            
+            <div class="step__title">
+                <span class="step__title--number">
+                    3
+                </span>
+                <h2 class="step__title--text">
+                    Груз
+                </h2>
+            </div>
+            <div class="step__selects">
+
+                <div class="step__select">
+                    <h3 class="step__select--name">
+                        Тип груза
+                    </h3>
+
+                    <div class="select-box">
+                        <div class="options-container3">
+            
+                            <div class="option3">
+                                <input type="radio" id="1" name="typeOfCargo">
+                                <label class="labelq" for="1">Вариант 1</label>
+                            </div>
+            
+                            <div class="option3">
+                                <input type="radio" id="2" name="typeOfCargo">
+                                <label class="labelq" for="2">Вариант 2</label>
+                            </div>
+            
+                            <div class="option3">
+                                <input type="radio" id="3" name="typeOfCargo">
+                                <label class="labelq" for="3">Вариант 3</label>
+                            </div>
+            
+                            <div class="option3">
+                                <input type="radio" id="4" name="typeOfCargo">
+                                <label class="labelq" for="4">Вариант 4</label>
+                            </div>
+            
+                            <div class="option3">
+                                <input type="radio" id="5" name="typeOfCargo">
+                                <label class="labelq" for="5">Вариант 5</label>
+                            </div>
+                        </div>
+                        <div class="selected3">
+                            Не выбрана
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="step__input step__input">
+                    <h3 class="step__input--text">
+                        Объявленная стоимость, ₽
+                    </h3>
+                    <input class="step__input--input--temperature" type="text" placeholder="≥1">
+                </div>
+            </div>
+
+            <div class="step__checkbox checkbox">
+                <input type="checkbox" class="checkbox__input" id="check">
+                <label for="check" class="checkbox__label">
+                    Требуется температурный режим
+                </label>
+            </div>
+            <div class="step__selects">
+
+                <div class="step__input step__input">
+                    <h3 class="step__input--text">
+                        От, ˚C
+                    </h3>
+                    <input class="step__input--input--temperature" type="text" placeholder="-20">
+                </div>
+
+                <div class="step__input step__input">
+                    <h3 class="step__input--text">
+                        До, ˚C
+                    </h3>
+                    <input class="step__input--input--temperature" type="text" placeholder="+23">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="step-4 step">
+
+            <div class="step__title">
+                <span class="step__title--number">
+                    4
+                </span>
+                <h2 class="step__title--text">
+                    Время
+                </h2>
+            </div>
+
+            <div class="step--time">
+                <h3 class="step__input--text">
+                    Когда прибыть на точку
+                </h3>
+                <h3 class="step__input--text">
+                    700 км в день
+                </h3>
+            </div>
+
+            <div class="step__address">
+                <img class="input__img" src="img/circle--red.svg" alt="">
+                <input class="step__address--input" placeholder="Длинный адрес с градиентом">
+            </div>
+
+            <div class="step__address">
+                <img class="input__img" src="img/circle--white.svg" alt="">
+                <input class="step__address--input" placeholder="Адрес не указан">
+            </div>
+
+            <h3 class="step__input--text">
+                Комментарий к заказу
+            </h3>
+
+            <textarea class="textarea" placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"></textarea>
+
+        </div>
+
+        <div class="message">
+            <p class="message__text">
+                Для расчета стоимости необходимо ввести параметры груза, пункты отправки и прибытия.
+            </p>
+        </div>
+    </main>
+<script src="js/active.min.js"></script>
+</body>
+</html>
